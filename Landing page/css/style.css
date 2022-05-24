@@ -793,6 +793,347 @@
   display: block;
   border-radius: 50%;
 }
+
+#blogs .container .row .card .card-body .p-footer .p-meta-info a.team-name {
+  text-decoration: none;
+  font-weight: 700;
+  color: #232121;
+  letter-spacing: 0.02em;
+}
+
+#blogs .container .row .card .card-body .p-footer .read {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #232121;
+  opacity: 0.9;
+  text-decoration: none;
+}
+#blogs .container .row .card .card-body .p-footer .read:hover {
+  color: #ff6600;
+}
+
+.testimonial-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+#owl-agency .owl-stage-outer .owl-stage .owl-item .item .comment-img {
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#owl-agency
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .item
+  .testimonial
+  blockquote
+  q {
+  font-size: 24px;
+  line-height: 36px;
+  color: #232121;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#owl-agency
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .item
+  .testimonial
+  blockquote
+  q::before {
+  font-size: 50px;
+  color: #ff6600;
+  display: block;
+  font-family: ;
+}
+
+#contact .container .upper-contact .header-title p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(22, 28, 45, 0.7);
+  font-family: "Quicksand", sans-serif;
+}
+
+#contact .container .upper-contact .twice-two {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+#contact .container .upper-contact .twice-two input,
+#contact .container .upper-contact textarea {
+  background: #f7f7f7;
+  border: 1px solid transparent;
+  color: rgba(22, 28, 45, 0.7);
+  font-size: 18px;
+  padding: 12px 20px;
+  line-height: 28px;
+  width: 100%;
+  border-radius: 6px;
+  height: 58px;
+}
+
+#contact .container .upper-contact textarea {
+  min-height: 200px;
+}
+#contact .container .upper-contact form .text-right button {
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background: #ff6600;
+  font-family: "Quicksand";
+}
+
+#contact .container .upper-contact form .text-right button:hover {
+  opacity: 0.8;
+}
+
+#contact .container .lower-contact {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  grid-gap: 20px;
+}
+
+#contact .container .lower-contact .contact-detail .contact-top {
+  display: grid;
+  grid-template-columns: 20px auto;
+  grid-gap: 20px;
+}
+#contact
+  .container
+  .lower-contact
+  .contact-detail
+  .contact-top
+  .contact-left
+  span {
+  font-size: 20px;
+  margin-top: 5px;
+  color: #ff6600;
+}
+#contact
+  .container
+  .lower-contact
+  .contact-detail
+  .contact-top
+  .contact-right
+  h5 {
+  font-size: 20px;
+  color: #232121;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  color: #232121;
+  font-family: "Quicksand", sans-serif;
+}
+
+#contact
+  .container
+  .lower-contact
+  .contact-detail
+  .contact-top
+  .contact-right
+  p
+  a,
+#contact
+  .container
+  .lower-contact
+  .contact-detail
+  .contact-top
+  .contact-right
+  p {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(22, 28, 45, 0.7);
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+#contact
+  .container
+  .lower-contact
+  .contact-detail
+  .contact-top
+  .contact-right
+  p
+  a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+  color: #232121;
+}
+
+.map-content .map-iframe iframe {
+  border-radius: 6px;
+  background: #f7f7f7;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #000;
+}
+
+.footer .container .row a.navbar-brand {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 0;
+}
+
+.footer .container .row a.navbar-brand:hover {
+  color: #ff6600;
+}
+
+.footer .container .row h2 {
+  margin: 0;
+}
+
+.footer .container .row p {
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 0px;
+  color: #a5a2a1;
+}
+
+.footer .container .row .social-footer a {
+  margin-right: 10px;
+  color: #ff6600;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.footer .container .row .social-footer a:hover {
+  background: #ff6600;
+  transition: 0.3s;
+  color: #fff;
+}
+#footer-list-title {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+.col-lg-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.footer .container .row .footer-list {
+  padding: 0 15px;
+}
+.footer .container .row .footer-list-1 {
+  padding-right: 3rem;
+}
+.footer .container .row .footer-list ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer .container .row .footer-list ul li a {
+  font-size: 17px;
+  line-height: 26px;
+  color: #a5a2a1;
+  text-decoration: none;
+}
+
+.footer .container .row .footer-list .form-control {
+  padding: 14px 20px;
+  font-size: 18px;
+  line-height: 28px;
+  border: 1px solid transparent;
+  outline: none;
+  width: 100%;
+  color: rgba(22, 28, 45, 0.7);
+  background: #fff;
+  border-radius: 6px;
+}
+
+.footer .container .row .footer-list .btn {
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  color: #fff;
+  background-color: #ff6600;
+}
+
+.footer .container .row .footer-list .btn:hover {
+  color: #fff;
+  background-color: #ff6600;
+  /* border: 2px solid #ff6600; */
+  opacity: 0.8;
+}
+
+.copyright {
+  padding: 1.2em 0;
+  background: #000;
+  border-top: 1px solid rgb(255 255 255 / 5%);
+}
+.copyright .container {
+  padding: 0 15px;
+}
+
+.copyright .container .row p {
+  margin-bottom: 0px;
+}
+.copyright .container .row a {
+  color: #ff6600;
+  text-decoration: none;
+}
+.copyright .container .row a:hover {
+  color: #fff;
+}
+
+.copyright .container .row .copyright-footer {
+  align-self: center;
+  color: #ddd;
+  font-size: 17px;
+}
+.copyright .container .row .footer-list ul {
+  padding: 0;
+  margin: 0;
+}
+.copyright .container .row .footer-list li {
+  list-style: none;
+}
+
+.copyright .container .row .footer-list a {
+  font-size: 17px;
+  line-height: 26px;
+  color: #a5a2a1;
+}
+
+.copyright .container .row .footer-list a:hover {
+  color: #ff6600;
+}
+
 @keyframes ripple {
   0% {
     box-shadow: 0 0 0 0 rgb(255 255 255 / 25%),
