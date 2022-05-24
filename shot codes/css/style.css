@@ -86,7 +86,9 @@ p {
   color: #fff;
   text-transform: capitalize;
 }
-
+.container .breadcrumb .breadcrumbs-custom-path li.active{
+  color: #fff !important;
+}
 .container .breadcrumb .breadcrumbs-custom-path li a {
   color: #ff6600;
   text-decoration: none;
