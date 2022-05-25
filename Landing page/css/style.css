@@ -55,13 +55,16 @@
   padding: 0px;
 }
 
+#navbarNavDropdown li {
+  list-style: none;
+}
 #navbarNavDropdown li a {
   position: relative;
 }
 
 #navbarNavDropdown li a i {
   position: absolute;
-  top: -18px;
+  top: -7px;
   font-size: 31px;
   color: #fff;
 }
@@ -151,6 +154,9 @@
   font-family: "Quicksand", sans-serif;
 }
 
+.agent .container-fluid {
+  background: #ff6600;
+}
 .agent .container-fluid .row .col-lg-6 .agent-image {
   background: url(../img/banner3.jpg) no-repeat center;
   background-size: cover;
@@ -736,6 +742,10 @@
   letter-spacing: 0.05em;
 }
 
+#blogs .container .row .card .post-pos a:hover {
+  text-decoration: none;
+}
+
 #blogs .container .row .card .post-pos span {
   opacity: 1;
   color: #fff;
@@ -1037,10 +1047,7 @@
   font-weight: 700;
   color: #fff;
 }
-.col-lg-4 {
-  flex: 0 0 33.33333%;
-  max-width: 33.33333%;
-}
+
 .footer .container .row .footer-list {
   padding: 0 15px;
 }
@@ -1058,8 +1065,8 @@
   color: #a5a2a1;
   text-decoration: none;
 }
-.footer .container .row .footer-list ul li a:hover{
-  color:#ff6600;
+.footer .container .row .footer-list ul li a:hover {
+  color: #ff6600;
 }
 
 .footer .container .row .footer-list .form-control {
@@ -1146,4 +1153,45 @@
     box-shadow: 0 0 0 10px rgb(255 255 255 / 25%),
       0 0 0 20px rgb(255 255 255 / 25%), 0 0 0 40px rgba(50, 100, 245, 0);
   }
+}
+
+@media screen and (min-width: 1400px) {
+
+  #navbarNavDropdown .dropdown-menu{
+    top:60px;
+    right:-128px;
+  }
+}
+@media screen and (max-width: 1426px) {
+
+  #navbarNavDropdown .dropdown-menu{
+    top:60px;
+    left:-118px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #contact .container .lower-contact {
+    grid-template-columns: 1fr;
+  }
+  .footer .container .row .social-footer {
+    text-align: center;
+  }
+  .copyright .container .row .copyright-footer {
+    text-align: center;
+  }
+}
+@media screen and(max-width:900px) {
+  #video .container .history-info {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and(max-width:640px) {
+  #video .container .history-info {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 576px) {
 }
