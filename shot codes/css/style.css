@@ -149,6 +149,9 @@ p {
   background-color: rgba(130, 115, 252, 0.05);
   border-radius: 0.25rem;
 }
+.bd-example h5{
+  color:##212529;
+}
 .highlight {
   padding: 1.5rem;
   background-color: #f7f7f7;
