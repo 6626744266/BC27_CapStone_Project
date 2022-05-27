@@ -115,18 +115,22 @@
                       <a class="dropdown-item" href="#">Blog</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="https://404website.vercel.app/">404</a>
+                      <a
+                        class="dropdown-item"
+                        href="https://404website.vercel.app/"
+                        >404</a
+                      >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#"
-                        >Landing Page</a
-                      >
+                      <a class="dropdown-item" href="#">Landing Page</a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="#">Contact</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="https://shotcodes.vercel.app/"
+                      <a
+                        class="dropdown-item"
+                        href="https://shotcodes.vercel.app/"
                         >Shot Codes</a
                       >
                     </li>
@@ -586,6 +590,8 @@
             <a
               href="#small-dialog"
               class="popup-with-zoom-anim play-view text-center pl-3"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
             >
               <span class="video-play-icon">
                 <span class="fa fa-play"></span>
@@ -594,27 +600,41 @@
 
             <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
 
-            <!-- <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-              <iframe
-                src="https://player.vimeo.com/video/305185528"
-                frameborder="0"
-                allow="autoplay; fullscreen"
-                allowfullscreen=""
-                __idm_id__="466945"
-                data-dashlane-frameid="100"
-              ></iframe>
-            </div> -->
-            <!--//video-->
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModalCenter"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button
+                    type="button"
+                    class="mfp-close close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                    <iframe
+                      src="https://player.vimeo.com/video/305185528"
+                      frameborder="0"
+                      allow="autoplay; fullscreen"
+                      allowfullscreen=""
+                    >
+                     </iframe
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            
           </div>
-          <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
-          <!-- <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-            <iframe
-              src="https://player.vimeo.com/video/305185528"
-              frameborder="0"
-              allow="autoplay; fullscreen"
-              allowfullscreen=""
-            ></iframe>
-          </div> -->
+
         </div>
       </div>
     </section>
@@ -777,8 +797,8 @@
     <!-- Blog Posts -->
 
     <!-- Testimonials -->
-    <section class="w3l-clients w3l-agency-test" id="testimonials">
-      <div class="midd-w3 py-5">
+    <section id="testimonials">
+      <div class="py-5">
         <div class="container py-lg-5 py-md-3">
           <div class="header-title text-center">
             <h6 class="main-title">Testimonials</h6>
@@ -1161,7 +1181,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-  
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
